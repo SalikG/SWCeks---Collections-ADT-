@@ -20,7 +20,9 @@ public class MainClass {
         users.add(user3);
         users.add(user4);
         try {
+            int counter = 1;
             for (User u : users) {
+                System.out.print("User " + counter + " == ");
                 System.out.print("Roles: ");
                 if (u.getRoles().contains(sales)) {
                     System.out.print("sales   ");
@@ -38,6 +40,8 @@ public class MainClass {
                     System.out.print("normal user   ");
                 }
                 Thread.sleep(700);
+                System.out.println();
+                counter++;
             }
         }
         catch (Exception e){
