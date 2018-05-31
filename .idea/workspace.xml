@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="056bbca1-2614-4125-a47b-67d9b80a1819" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CrashAble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MapMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StackMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Driveable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driveable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +17,8 @@
       <file leaf-file-name="StackMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StackMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="70" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="6" selection-end-column="70" />
+            <state relative-caret-position="-85">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -34,8 +26,8 @@
       <file leaf-file-name="MapMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MapMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+            <state relative-caret-position="185">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,7 +38,7 @@
       <file leaf-file-name="CrashAble.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CrashAble.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="153">
               <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
               <folding>
                 <element signature="e#100#101#0" expanded="true" />
@@ -114,9 +106,9 @@
         <option value="$PROJECT_DIR$/src/Boat.java" />
         <option value="$PROJECT_DIR$/src/CrashAble.java" />
         <option value="$PROJECT_DIR$/src/Driveable.java" />
-        <option value="$PROJECT_DIR$/src/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/MainClass.java" />
         <option value="$PROJECT_DIR$/src/StackMain.java" />
+        <option value="$PROJECT_DIR$/src/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/MapMain.java" />
       </list>
     </option>
@@ -128,10 +120,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="483" />
-    <option name="y" value="-10" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -258,16 +249,15 @@
       <updated>1524410596420</updated>
       <workItem from="1524410599788" duration="337000" />
       <workItem from="1527760956548" duration="5028000" />
-      <workItem from="1527770283249" duration="2692000" />
+      <workItem from="1527770283249" duration="4925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7934000" />
+    <option name="totallyTimeSpent" value="10167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -435,16 +425,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Boat.java">
+    <entry file="file://$PROJECT_DIR$/src/Driveable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        <state relative-caret-position="34">
+          <caret line="2" column="71" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CrashAble.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="153">
           <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
           <folding>
             <element signature="e#100#101#0" expanded="true" />
@@ -453,10 +443,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Driveable.java">
+    <entry file="file://$PROJECT_DIR$/src/Boat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="71" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
+        <state relative-caret-position="323">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -469,15 +459,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StackMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="70" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="6" selection-end-column="70" />
+        <state relative-caret-position="-85">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MapMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+        <state relative-caret-position="185">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
