@@ -1,6 +1,6 @@
 public interface Driveable {
 
-
+// dette interface har nogle metoder der definere forskellige opførsler
 
     public abstract int getWheels();
 

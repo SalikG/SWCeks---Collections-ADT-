@@ -14,7 +14,7 @@ public class Boat implements MakeAndModel {
 
     @Override
     public String getColor() {
-        return color;
+        return this.color;
     }
 
     @Override
@@ -24,6 +24,6 @@ public class Boat implements MakeAndModel {
 
     @Override
     public String getModel() {
-        return model;
+        return this.model;
     }
 }
