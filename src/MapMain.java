@@ -10,7 +10,7 @@ public class MapMain {
         motorcycle1.setVehicleStrength(5);
         motorcycle2.setVehicleStrength(6);
 
-
+        
         Map<String, Vehicle> vehicleMap = new HashMap<>();
 
         vehicleMap.put(car.getModel(), car);
@@ -18,6 +18,8 @@ public class MapMain {
         vehicleMap.put(motorcycle2.getModel(), motorcycle2);
 
         vehicleMap.get(motorcycle2.getModel()).youCrashed();
+
+        vehicleMap.equals();
 
         for(Map.Entry<String, Vehicle> vehicleEntry  : vehicleMap.entrySet()){
             if (vehicleEntry.getKey().contains("Volvo")){
