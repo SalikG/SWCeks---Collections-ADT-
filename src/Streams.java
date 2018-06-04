@@ -7,8 +7,8 @@ public class Streams {
 
         System.out.println(
                 IntStream
-                .range(1, 5)
-                .sum()
+                        .range(1, 5)
+                        .sum()
         );
 
         System.out.println();
@@ -18,6 +18,7 @@ public class Streams {
 
         people.stream()
                 .map(String::toLowerCase)
+                .skip(4)
                 .filter(x -> x.startsWith("s"))
                 .forEach(System.out::println);
     }
