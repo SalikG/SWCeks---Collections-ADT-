@@ -1,5 +1,4 @@
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class MapMain {
     public static void main(String[] args) {
@@ -12,14 +11,13 @@ public class MapMain {
 
         
         Map<String, Vehicle> vehicleMap = new HashMap<>();
-
+        
         vehicleMap.put(car.getModel(), car);
         vehicleMap.put(motorcycle1.getModel(), motorcycle1);
         vehicleMap.put(motorcycle2.getModel(), motorcycle2);
 
         vehicleMap.get(motorcycle2.getModel()).youCrashed();
 
-        vehicleMap.equals();
 
         for(Map.Entry<String, Vehicle> vehicleEntry  : vehicleMap.entrySet()){
             if (vehicleEntry.getKey().contains("Volvo")){
