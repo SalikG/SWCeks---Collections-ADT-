@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class SelectionSort {
     public static void main(String[] args) {
-        // n = 5 = længden af listen
+        // n = 4 = længden af listen
         int[] numbers = {3, 2, 8, 4};
         selectionSort(numbers);
         System.out.println(Arrays.toString(numbers));
