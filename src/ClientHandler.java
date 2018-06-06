@@ -17,6 +17,7 @@ public class ClientHandler implements Runnable{
             while(true){
                 message = scanner.nextLine();
                 multiChatServer.sendToAll(message);
+                Thread.sleep(200);
             }
         }
         catch (Exception e){
