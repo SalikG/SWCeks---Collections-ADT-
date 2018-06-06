@@ -8,7 +8,7 @@ public class Diamanter {
                 wait();
             }
             count = count + 1;
-            System.out.print("inc: "+count + " ");
+            System.out.print("inc: " + count + " ");
             notifyAll();
         }
         catch (Exception e){
@@ -22,7 +22,7 @@ public class Diamanter {
                 wait();
             }
             count = count - 1;
-            System.out.print("dec: "+count + " ");
+            System.out.print("dec: " + count + " ");
             notifyAll();
         }
         catch (Exception e){
