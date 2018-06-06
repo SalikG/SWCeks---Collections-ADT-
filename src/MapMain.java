@@ -11,13 +11,17 @@ public class MapMain {
 
         
         Map<String, Vehicle> vehicleMap = new HashMap<>();
-        
+
         vehicleMap.put(car.getModel(), car);
         vehicleMap.put(motorcycle1.getModel(), motorcycle1);
         vehicleMap.put(motorcycle2.getModel(), motorcycle2);
 
         vehicleMap.get(motorcycle2.getModel()).youCrashed();
 
+//        vehicleMap.equals();
+
+//        vehicleMap.clone();
+//        ((HashMap<String, Vehicle>) vehicleMap).clone();
 
         for(Map.Entry<String, Vehicle> vehicleEntry  : vehicleMap.entrySet()){
             if (vehicleEntry.getKey().contains("Volvo")){

@@ -1,6 +1,6 @@
 public interface Driveable {
 
-// dette interface har nogle metoder der definere forskellige opførsler
+// dette interface har nogle metoder der definere forskellige opførsler men ikke udførelsen
 
     public abstract int getWheels();
 
