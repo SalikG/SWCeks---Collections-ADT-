@@ -24,14 +24,14 @@ public class StackMain {
 
         //ctrl + z
         //Browser history back
-        vehicles.pop();
-
+//        vehicles.pop();
+        String[] strings = new String[6];
         System.out.println("What is on top after pop: " + vehicles.peek());
         System.out.println("Stack size: " + vehicles.size());
 
         //ctrl + shift + z
         //Browser history forward
-        vehicles.push(car);
+//        vehicles.push(car);
 
         System.out.println("What is on top after push: " + vehicles.peek());
         System.out.println("Stack size: " + vehicles.size());
